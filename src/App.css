@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: url('https://eat-unique.uk/wp-content/uploads/2018/04/Singapore-Restaurant-Header-Image.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.header .cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .cart button {
+  background-color: #f8c102;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  border-radius: 5px;
+}
+
+.header .cart button:hover {
+  background-color: #e6b102;
+}
