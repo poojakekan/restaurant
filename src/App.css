@@ -54,3 +54,22 @@ body {
 .header .cart button:hover {
   background-color: #e6b102;
 }
+
+.description {
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.description h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
